@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  background-color: rgb(81, 92, 112);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title1 {
+  color: aliceblue;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: center;
+
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  padding: 30px;
+  color: white;
+}
+
+.contenMain {
+  padding: 50px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(81, 92, 112);
+}
+
+.left {
+  max-width: 50%;
+
+
+}
+
+.right {
+  max-width: 50%;
+}
+
+.titleHead {
+  color: white;
+  font-size: 70px;
+  padding: 0 0 10px 0;
+}
+
+.paragrap {
+  max-width: 70%;
+  color: white;
+  padding: 0 0 10px 0
+}
+
+.paragrapGray {
+  max-width: 70%;
+  color: silver;
+}
+
+.containerButton {
+  display: flex;
+  flex-direction: row;
+}
+
+.sectionBUtton {
+  flex-direction: row;
+  width: 100%;
+}
+
+.button {
+  background-color: rgb(52, 189, 235);
+  height: 50px;
+  border-radius: 20px;
+  width: 200px;
+  color: white;
+}
+
+.textButton {
+  max-width: 70%;
+  color: silver;
+  padding: 0 0 30px 0
+}
+
+.divide {
+  display: grid;
+  grid-template-areas: "p pp ppp pppp ppppp";
+  justify-content: space-around;
+  background-color: rgb(254, 247, 238);
+
+}
+
+.textTaman {
+  font-size: 20px;
+}
+
+.sectionOne {
+  display: grid;
+  grid-template-areas: "izquierdo centro derecho";
+  gap: 30px;
+  text-align: center;
+  padding: 30px 5px 0px 5px;
+  margin: 50px 50px 70px 50px
+}
+
+.buttonOne {
+  background-color: rgb(52, 189, 235);
+  border-radius: 20px;
+  height: 50px;
+  width: 150px;
+  color: white;
+}
+
+.titleTow {
+  margin: 10px 40px;
+}
+
+.sectionImages {
+  display: grid;
+  grid-template-areas: "img1 img2 img3 img4";
+  gap: 20px;
+  justify-content: space-around;
+  margin: 50px 50px 70px 50px;
+}
+
+.imitacionLink {
+  color: rgb(20, 178, 231);
+}
+
+.container {
+  margin: 50px 50px 70px 50px;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: "blog right";
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.blog-first {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-gray {
+  color: gray
+}
+
+.blue {
+  color: rgb(101, 101, 242)
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width:800px) {
+  .menu4 {
+    display: grid;
+    grid-template-areas:
+      "img1 img2"
+      "img3 img";
+
+    margin: 50px 50px 70px 50px;
+  }
+
+  .b{
+    margin: 50px 50px 70px 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+      "blog"
+      "right";
+  }
+}
